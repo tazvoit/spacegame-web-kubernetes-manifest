@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: docker.io/tazvoit/web:119
+          image: docker.io/tazvoit/web:117
           ports:
           - containerPort: 8080
 ---
@@ -34,6 +34,6 @@ spec:
     spec:
       containers:
         - name: leaderboard
-          image: docker.io/tazvoit/leaderboard:119
+          image: docker.io/tazvoit/leaderboard:117
           ports:
           - containerPort: 8080
